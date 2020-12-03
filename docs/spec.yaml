@@ -1,20 +1,20 @@
 openapi: 3.0.0
 info:
   version: 1.0.0
-  title: ƒ|ƒPƒ‚ƒ“}ŠÓ
+  title: ãƒã‚±ãƒ¢ãƒ³å›³é‘‘
 paths:
   "/pokemon/{name}":
     get:
       tags:
-        - "ƒ|ƒPƒ‚ƒ“î•ñæ“¾API"
+        - "ãƒã‚±ãƒ¢ãƒ³æƒ…å ±å–å¾—API"
       summary:
-        "ƒ|ƒPƒ‚ƒ“î•ñæ“¾API"
+        "ãƒã‚±ãƒ¢ãƒ³æƒ…å ±å–å¾—API"
       description:
-        "w’è‚µ‚½–¼‘O‚Ìƒ|ƒPƒ‚ƒ“‚ğŒŸõ‚µAî•ñ‚ğæ“¾‚µ‚Ü‚·B"
+        "æŒ‡å®šã—ãŸåå‰ã®ãƒã‚±ãƒ¢ãƒ³ã‚’æ¤œç´¢ã—ã€æƒ…å ±ã‚’å–å¾—ã—ã¾ã™ã€‚"
       parameters:
         - name: "name"
           in: "path"
-          description: "ƒ|ƒPƒ‚ƒ“‚Ì–¼‘O"
+          description: "ãƒã‚±ãƒ¢ãƒ³ã®åå‰"
           required: true
           type: "string"
       responses:
@@ -35,9 +35,9 @@ paths:
                     type: "string"
                 example:
                   no: "007"
-                  name: "ƒ[ƒjƒKƒ"
-                  type: "‚İ‚¸"
-                  comment: "‚±‚¤‚ç‚É ‚Æ‚¶‚±‚à‚è ‚İ‚ğ‚Ü‚à‚éB"
+                  name: "ã‚¼ãƒ‹ã‚¬ãƒ¡"
+                  type: "ã¿ãš"
+                  comment: "ã“ã†ã‚‰ã« ã¨ã˜ã“ã‚‚ã‚Š ã¿ã‚’ã¾ã‚‚ã‚‹ã€‚"
         400:
           description: "BadRequest"
           content:
